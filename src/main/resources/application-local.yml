@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ams_db
+    username: ams_user
+    password: ams_password
+
+  jpa:
+    show-sql: true
