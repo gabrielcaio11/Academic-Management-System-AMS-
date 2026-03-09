@@ -16,8 +16,7 @@ public class StudentService {
     this.repository = repository;
   }
 
-  public StudentResponse create(StudentRequest request) {
-    Student student = StudentMapper.toEntity(request);
-    return StudentMapper.toResponse(repository.save(student));
+  public Student create(Student student) {
+    return repository.save(student);
   }
 }

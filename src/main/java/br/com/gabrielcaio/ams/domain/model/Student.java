@@ -49,47 +49,23 @@ public class Student {
     return id;
   }
 
-  public void setId(Long id) {
-    this.id = id;
-  }
-
   public String getFullName() {
     return fullName;
-  }
-
-  public void setFullName(String fullName) {
-    this.fullName = fullName;
   }
 
   public String getEmail() {
     return email;
   }
 
-  public void setEmail(String email) {
-    this.email = email;
-  }
-
   public String getRegistrationNumber() {
     return registrationNumber;
-  }
-
-  public void setRegistrationNumber(String registrationNumber) {
-    this.registrationNumber = registrationNumber;
   }
 
   public LocalDate getBirthDate() {
     return birthDate;
   }
 
-  public void setBirthDate(LocalDate birthDate) {
-    this.birthDate = birthDate;
-  }
-
   public Set<Enrollment> getEnrollments() {
     return enrollments;
-  }
-
-  public void setEnrollments(Set<Enrollment> enrollments) {
-    this.enrollments = enrollments;
   }
 }
